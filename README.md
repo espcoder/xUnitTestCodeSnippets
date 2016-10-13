@@ -30,6 +30,12 @@ Then, this snippet expanded following C# code.
 public void MyTestMethod()
 {
 
+  // arrange
+  
+  // act
+  
+  // assert
+
 }
 ```
 
@@ -46,7 +52,11 @@ Then, this snippet expanded following C# code.
 [Theory]
 public void MyTheory()
 {
-
+  // arrange
+  
+  // act
+  
+  // assert
 }
 ```
 
@@ -65,7 +75,12 @@ public class MyTestClass
     [Fact]
     public void MyTestFact()
     {
-
+        // arrange
+        
+        // act
+        
+        // assert
+        
     }
 }
 ```
@@ -78,7 +93,11 @@ public class MyTestClass
 [Fact]
 public async Task MyTestFact()
 {
-
+  // arrange
+  
+  // act
+  
+  // assert
 }
 ```
 
@@ -88,7 +107,11 @@ public async Task MyTestFact()
 [Theory]
 public async Task MyTheory()
 {
-
+  // arrange
+  
+  // act
+  
+  // assert
 }
 ```
 
